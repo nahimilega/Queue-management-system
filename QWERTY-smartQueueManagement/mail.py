@@ -68,7 +68,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 # start TLS for security 
 s.starttls() 
 # Authentication 
-s.login(fromaddr, 'flag{y0u_f0un3_me}') 
+s.login(fromaddr, '<password of email goes here>') 
 # Converts the Multipart msg into a string 
 text = msg.as_string() 
 # sending the mail 
